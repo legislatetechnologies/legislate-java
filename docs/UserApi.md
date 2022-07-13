@@ -19,11 +19,11 @@ This operation will create a user
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.UserApi;
+//import com.legislate.ApiClient;
+//import com.legislate.ApiException;
+//import com.legislate.Configuration;
+//import com.legislate.auth.*;
+//import com.legislate.api.UserApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -72,11 +72,11 @@ This operation will retrieve details about a given user.
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.UserApi;
+//import com.legislate.ApiClient;
+//import com.legislate.ApiException;
+//import com.legislate.Configuration;
+//import com.legislate.auth.*;
+//import com.legislate.api.UserApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -125,11 +125,11 @@ This operation will retrieve all users.
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.UserApi;
+//import com.legislate.ApiClient;
+//import com.legislate.ApiException;
+//import com.legislate.Configuration;
+//import com.legislate.auth.*;
+//import com.legislate.api.UserApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 

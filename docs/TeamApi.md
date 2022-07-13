@@ -20,11 +20,11 @@ This operation will retrieve details about a given team.
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.TeamApi;
+//import com.legislate.ApiClient;
+//import com.legislate.ApiException;
+//import com.legislate.Configuration;
+//import com.legislate.auth.*;
+//import com.legislate.api.TeamApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -73,11 +73,11 @@ This operation will retrieve all teams for a given user.
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.TeamApi;
+//import com.legislate.ApiClient;
+//import com.legislate.ApiException;
+//import com.legislate.Configuration;
+//import com.legislate.auth.*;
+//import com.legislate.api.TeamApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -126,11 +126,11 @@ This operation will create a team for a given user.
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.TeamApi;
+//import com.legislate.ApiClient;
+//import com.legislate.ApiException;
+//import com.legislate.Configuration;
+//import com.legislate.auth.*;
+//import com.legislate.api.TeamApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -181,11 +181,11 @@ This operation will update a team details.
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.TeamApi;
+//import com.legislate.ApiClient;
+//import com.legislate.ApiException;
+//import com.legislate.Configuration;
+//import com.legislate.auth.*;
+//import com.legislate.api.TeamApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 

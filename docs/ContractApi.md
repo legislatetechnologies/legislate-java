@@ -23,11 +23,11 @@ This operation will delete a contract by its id.
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.ContractApi;
+//import com.legislate.ApiClient;
+//import com.legislate.ApiException;
+//import com.legislate.Configuration;
+//import com.legislate.auth.*;
+//import com.legislate.api.ContractApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -76,11 +76,11 @@ Generate the pdf of a contract
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.ContractApi;
+//import com.legislate.ApiClient;
+//import com.legislate.ApiException;
+//import com.legislate.Configuration;
+//import com.legislate.auth.*;
+//import com.legislate.api.ContractApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -129,11 +129,11 @@ Generate the html of a contract
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.ContractApi;
+//import com.legislate.ApiClient;
+//import com.legislate.ApiException;
+//import com.legislate.Configuration;
+//import com.legislate.auth.*;
+//import com.legislate.api.ContractApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -182,11 +182,11 @@ This operation will retrieve details about a given contract.
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.ContractApi;
+//import com.legislate.ApiClient;
+//import com.legislate.ApiException;
+//import com.legislate.Configuration;
+//import com.legislate.auth.*;
+//import com.legislate.api.ContractApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -235,11 +235,11 @@ Fetch all the contracts which are part of a team
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.ContractApi;
+//import com.legislate.ApiClient;
+//import com.legislate.ApiException;
+//import com.legislate.Configuration;
+//import com.legislate.auth.*;
+//import com.legislate.api.ContractApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -288,11 +288,11 @@ This operation will create a contract inside an automatically generated bundle.
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.ContractApi;
+//import com.legislate.ApiClient;
+//import com.legislate.ApiException;
+//import com.legislate.Configuration;
+//import com.legislate.auth.*;
+//import com.legislate.api.ContractApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -343,11 +343,11 @@ This operation will update a contract details.
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.ContractApi;
+//import com.legislate.ApiClient;
+//import com.legislate.ApiException;
+//import com.legislate.Configuration;
+//import com.legislate.auth.*;
+//import com.legislate.api.ContractApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 

@@ -26,11 +26,11 @@ This operation will delete a Collaborator by its id.
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.CollaboratorApi;
+//import com.legislate.ApiClient;
+//import com.legislate.ApiException;
+//import com.legislate.Configuration;
+//import com.legislate.auth.*;
+//import com.legislate.api.CollaboratorApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -78,11 +78,11 @@ This operation will retrieve the fields need to be filled due to a side and a li
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.CollaboratorApi;
+//import com.legislate.ApiClient;
+//import com.legislate.ApiException;
+//import com.legislate.Configuration;
+//import com.legislate.auth.*;
+//import com.legislate.api.CollaboratorApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -133,11 +133,11 @@ Get contract collaborator details
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.CollaboratorApi;
+//import com.legislate.ApiClient;
+//import com.legislate.ApiException;
+//import com.legislate.Configuration;
+//import com.legislate.auth.*;
+//import com.legislate.api.CollaboratorApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -184,11 +184,11 @@ Get collaborators for a given contract
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.CollaboratorApi;
+//import com.legislate.ApiClient;
+//import com.legislate.ApiException;
+//import com.legislate.Configuration;
+//import com.legislate.auth.*;
+//import com.legislate.api.CollaboratorApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -237,11 +237,11 @@ This operation will create a collaborator associated to the contract given
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.CollaboratorApi;
+//import com.legislate.ApiClient;
+//import com.legislate.ApiException;
+//import com.legislate.Configuration;
+//import com.legislate.auth.*;
+//import com.legislate.api.CollaboratorApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -292,11 +292,11 @@ This operation will create a company associated to the contract given
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.CollaboratorApi;
+//import com.legislate.ApiClient;
+//import com.legislate.ApiException;
+//import com.legislate.Configuration;
+//import com.legislate.auth.*;
+//import com.legislate.api.CollaboratorApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -347,11 +347,11 @@ This operation will sign a contract.
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.CollaboratorApi;
+//import com.legislate.ApiClient;
+//import com.legislate.ApiException;
+//import com.legislate.Configuration;
+//import com.legislate.auth.*;
+//import com.legislate.api.CollaboratorApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -400,11 +400,11 @@ This operation will update a collaborator details.
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.CollaboratorApi;
+//import com.legislate.ApiClient;
+//import com.legislate.ApiException;
+//import com.legislate.Configuration;
+//import com.legislate.auth.*;
+//import com.legislate.api.CollaboratorApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -455,11 +455,11 @@ This operation will update a collaborator fields.
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.CollaboratorApi;
+//import com.legislate.ApiClient;
+//import com.legislate.ApiException;
+//import com.legislate.Configuration;
+//import com.legislate.auth.*;
+//import com.legislate.api.CollaboratorApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -510,11 +510,11 @@ This operation will sign a contract.
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.CollaboratorApi;
+//import com.legislate.ApiClient;
+//import com.legislate.ApiException;
+//import com.legislate.Configuration;
+//import com.legislate.auth.*;
+//import com.legislate.api.CollaboratorApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 

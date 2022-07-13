@@ -15,11 +15,11 @@ Send an email with a coupon for new users.
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.CouponApi;
+//import com.legislate.ApiClient;
+//import com.legislate.ApiException;
+//import com.legislate.Configuration;
+//import com.legislate.auth.*;
+//import com.legislate.api.CouponApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 

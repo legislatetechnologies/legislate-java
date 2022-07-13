@@ -1,8 +1,7 @@
-# swagger-java-client
+# legislate-java
 
 Legislate API
 - API version: 1.0.0
-  - Build date: 2022-07-07T12:02:36.422601+02:00[Europe/Madrid]
 
 The Legislate API is organized around REST. Our API has predictable resource-oriented URLs, accepts form-encoded request bodies, returns JSON-encoded responses, and uses standard HTTP response codes, authentication, and verbs.
 
@@ -38,8 +37,8 @@ Add this dependency to your project's POM:
 
 ```xml
 <dependency>
-  <groupId>io.swagger</groupId>
-  <artifactId>swagger-java-client</artifactId>
+  <groupId>com.legislate</groupId>
+  <artifactId>legislate-java</artifactId>
   <version>1.0.0</version>
   <scope>compile</scope>
 </dependency>
@@ -50,7 +49,7 @@ Add this dependency to your project's POM:
 Add this dependency to your project's build file:
 
 ```groovy
-compile "io.swagger:swagger-java-client:1.0.0"
+compile "com.legislate:legislate-java:1.0.0"
 ```
 
 ### Others
@@ -63,7 +62,7 @@ mvn clean package
 
 Then manually install the following JARs:
 
-* `target/swagger-java-client-1.0.0.jar`
+* `target/legislate-java-1.0.0.jar`
 * `target/lib/*.jar`
 
 ## Getting Started
@@ -71,10 +70,10 @@ Then manually install the following JARs:
 Please follow the [installation](#installation) instruction and execute the following Java code:
 
 ```java
-import io.swagger.client.*;
-import io.swagger.client.auth.*;
-import io.swagger.client.model.*;
-import io.swagger.client.api.CollaboratorApi;
+import com.legislate.*;
+import com.legislate.auth.*;
+import com.legislate.model.*;
+import com.legislate.api.CollaboratorApi;
 
 import java.io.File;
 import java.util.*;
@@ -98,10 +97,10 @@ public class CollaboratorApiExample {
         }
     }
 }
-import io.swagger.client.*;
-import io.swagger.client.auth.*;
-import io.swagger.client.model.*;
-import io.swagger.client.api.CollaboratorApi;
+import com.legislate.*;
+import com.legislate.auth.*;
+import com.legislate.model.*;
+import com.legislate.api.CollaboratorApi;
 
 import java.io.File;
 import java.util.*;
@@ -128,10 +127,10 @@ public class CollaboratorApiExample {
         }
     }
 }
-import io.swagger.client.*;
-import io.swagger.client.auth.*;
-import io.swagger.client.model.*;
-import io.swagger.client.api.CollaboratorApi;
+import com.legislate.*;
+import com.legislate.auth.*;
+import com.legislate.model.*;
+import com.legislate.api.CollaboratorApi;
 
 import java.io.File;
 import java.util.*;
@@ -156,10 +155,10 @@ public class CollaboratorApiExample {
         }
     }
 }
-import io.swagger.client.*;
-import io.swagger.client.auth.*;
-import io.swagger.client.model.*;
-import io.swagger.client.api.CollaboratorApi;
+import com.legislate.*;
+import com.legislate.auth.*;
+import com.legislate.model.*;
+import com.legislate.api.CollaboratorApi;
 
 import java.io.File;
 import java.util.*;
@@ -184,10 +183,10 @@ public class CollaboratorApiExample {
         }
     }
 }
-import io.swagger.client.*;
-import io.swagger.client.auth.*;
-import io.swagger.client.model.*;
-import io.swagger.client.api.CollaboratorApi;
+import com.legislate.*;
+import com.legislate.auth.*;
+import com.legislate.model.*;
+import com.legislate.api.CollaboratorApi;
 
 import java.io.File;
 import java.util.*;
@@ -213,10 +212,10 @@ public class CollaboratorApiExample {
         }
     }
 }
-import io.swagger.client.*;
-import io.swagger.client.auth.*;
-import io.swagger.client.model.*;
-import io.swagger.client.api.CollaboratorApi;
+import com.legislate.*;
+import com.legislate.auth.*;
+import com.legislate.model.*;
+import com.legislate.api.CollaboratorApi;
 
 import java.io.File;
 import java.util.*;
@@ -242,10 +241,10 @@ public class CollaboratorApiExample {
         }
     }
 }
-import io.swagger.client.*;
-import io.swagger.client.auth.*;
-import io.swagger.client.model.*;
-import io.swagger.client.api.CollaboratorApi;
+import com.legislate.*;
+import com.legislate.auth.*;
+import com.legislate.model.*;
+import com.legislate.api.CollaboratorApi;
 
 import java.io.File;
 import java.util.*;
@@ -270,10 +269,10 @@ public class CollaboratorApiExample {
         }
     }
 }
-import io.swagger.client.*;
-import io.swagger.client.auth.*;
-import io.swagger.client.model.*;
-import io.swagger.client.api.CollaboratorApi;
+import com.legislate.*;
+import com.legislate.auth.*;
+import com.legislate.model.*;
+import com.legislate.api.CollaboratorApi;
 
 import java.io.File;
 import java.util.*;
@@ -299,10 +298,10 @@ public class CollaboratorApiExample {
         }
     }
 }
-import io.swagger.client.*;
-import io.swagger.client.auth.*;
-import io.swagger.client.model.*;
-import io.swagger.client.api.CollaboratorApi;
+import com.legislate.*;
+import com.legislate.auth.*;
+import com.legislate.model.*;
+import com.legislate.api.CollaboratorApi;
 
 import java.io.File;
 import java.util.*;
@@ -328,6 +327,34 @@ public class CollaboratorApiExample {
         }
     }
 }
+import com.legislate.*;
+import com.legislate.auth.*;
+import com.legislate.model.*;
+import com.legislate.api.CollaboratorApi;
+
+import java.io.File;
+import java.util.*;
+
+public class CollaboratorApiExample {
+
+    public static void main(String[] args) {
+        ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+        // Configure OAuth2 access token for authorization: auth0_jwt
+        OAuth auth0_jwt = (OAuth) defaultClient.getAuthentication("auth0_jwt");
+        auth0_jwt.setAccessToken("YOUR ACCESS TOKEN");
+
+        CollaboratorApi apiInstance = new CollaboratorApi();
+        Long collaboratorId = 789L; // Long | The unique Id of the contract collaborator who is signing.
+        try {
+            ContractCollaboratorResponseDTO result = apiInstance.updateCollaboratorSignatureUsingPATCH(collaboratorId);
+            System.out.println(result);
+        } catch (ApiException e) {
+            System.err.println("Exception when calling CollaboratorApi#updateCollaboratorSignatureUsingPATCH");
+            e.printStackTrace();
+        }
+    }
+}
 ```
 
 ## Documentation for API Endpoints
@@ -345,6 +372,7 @@ Class | Method | HTTP request | Description
 *CollaboratorApi* | [**updateCollaboratorBinaryFileSignatureUsingPATCH**](docs/CollaboratorApi.md#updateCollaboratorBinaryFileSignatureUsingPATCH) | **PATCH** /v1/collaborators/{collaboratorId}/signature | Upload a signature to a collaborator
 *CollaboratorApi* | [**updateCollaboratorFieldsUsingPATCH**](docs/CollaboratorApi.md#updateCollaboratorFieldsUsingPATCH) | **PATCH** /v1/collaborators/{collaboratorId}/fields | Update collaborator fields
 *CollaboratorApi* | [**updateCollaboratorRolesUsingPATCH**](docs/CollaboratorApi.md#updateCollaboratorRolesUsingPATCH) | **PATCH** /v1/collaborators/{collaboratorId}/roles | Update collaborator role
+*CollaboratorApi* | [**updateCollaboratorSignatureUsingPATCH**](docs/CollaboratorApi.md#updateCollaboratorSignatureUsingPATCH) | **PATCH** /v1/collaborators/{collaboratorId}/user-signature | Upload a signature to a collaborator
 *ContractApi* | [**deleteContractUsingDELETE**](docs/ContractApi.md#deleteContractUsingDELETE) | **DELETE** /v1/contracts/{contractId} | Deletes a contract by its id.
 *ContractApi* | [**getContractFileUsingGET**](docs/ContractApi.md#getContractFileUsingGET) | **GET** /v1/contracts/{contractId}/pdf | Get contract pdf
 *ContractApi* | [**getContractHtmlUsingGET**](docs/ContractApi.md#getContractHtmlUsingGET) | **GET** /v1/contracts/{contractId}/html | Get contract html
@@ -412,7 +440,7 @@ Authentication schemes defined for the API:
 
 - **Type**: OAuth
 - **Flow**: implicit
-- **Authorization URL**: https://legislate-sandbox.eu.auth0.com/authorize
+- **Authorization URL**: 
 - **Scopes**: 
 
 
