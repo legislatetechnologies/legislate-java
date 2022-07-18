@@ -359,7 +359,7 @@ public class CollaboratorApiExample {
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *//localhost:8080/*
+All URIs are relative to https://api.legislate.tech
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------

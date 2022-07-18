@@ -1,6 +1,6 @@
 # ContractTypeApi
 
-All URIs are relative to *//localhost:8080/*
+All URIs are relative to https://api.legislate.tech
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
