@@ -53,7 +53,7 @@ import com.legislate.auth.OAuth;
 
 public class ApiClient {
 
-    private String basePath = "//localhost:8080/";
+    private String basePath = "https://api.legislate.tech/";
     private boolean debugging = false;
     private Map<String, String> defaultHeaderMap = new HashMap<String, String>();
     private String tempFolderPath = null;
