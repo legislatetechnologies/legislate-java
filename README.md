@@ -1,7 +1,7 @@
 # legislate-java
 
 Legislate API
-- API version: 1.0.0
+- API version: 1.1.0
 
 The Legislate API is organized around REST. Our API has predictable resource-oriented URLs, accepts form-encoded request bodies, returns JSON-encoded responses, and uses standard HTTP response codes, authentication, and verbs.
 
@@ -39,7 +39,7 @@ Add this dependency to your project's POM:
 <dependency>
   <groupId>com.legislate</groupId>
   <artifactId>legislate-java</artifactId>
-  <version>1.0.0</version>
+  <version>1.1.0</version>
   <scope>compile</scope>
 </dependency>
 ```
@@ -49,7 +49,7 @@ Add this dependency to your project's POM:
 Add this dependency to your project's build file:
 
 ```groovy
-compile "com.legislate:legislate-java:1.0.0"
+compile "com.legislate:legislate-java:1.1.0"
 ```
 
 ### Others
@@ -62,7 +62,7 @@ mvn clean package
 
 Then manually install the following JARs:
 
-* `target/legislate-java-1.0.0.jar`
+* `target/legislate-java-1.1.0.jar`
 * `target/lib/*.jar`
 
 ## Getting Started
