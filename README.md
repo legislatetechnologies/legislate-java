@@ -37,7 +37,7 @@ Add this dependency to your project's POM:
 
 ```xml
 <dependency>
-  <groupId>com.legislate</groupId>
+  <groupId>tech.legislate</groupId>
   <artifactId>legislate-java</artifactId>
   <version>1.1.0</version>
   <scope>compile</scope>
@@ -49,7 +49,7 @@ Add this dependency to your project's POM:
 Add this dependency to your project's build file:
 
 ```groovy
-compile "com.legislate:legislate-java:1.1.0"
+compile "tech.legislate:legislate-java:1.1.0"
 ```
 
 ### Others
