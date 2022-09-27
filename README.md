@@ -69,6 +69,12 @@ Then manually install the following JARs:
 
 Please follow the [installation](#installation) instruction and execute the following Java code:
 
+In order to instantiate an `ApiClient` first you need to instantiate a new `Configuration` and provide the URI in the constructor. e.g.
+
+```java
+Configuration configuration = new Configuration("https://sandbox.legislate.tech");
+ApiClient defaultClient = configuration.getDefaultApiClient();
+```
 ```java
 import com.legislate.*;
 import com.legislate.auth.*;
