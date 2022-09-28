@@ -13,6 +13,7 @@
 package com.legislate.api;
 
 import com.legislate.model.ContractResponseDTO;
+import com.legislate.model.ContractTypeTemplateResponseDTO;
 import org.junit.Test;
 import org.junit.Ignore;
 
@@ -60,7 +61,7 @@ public class ContractTypeTemplateApiTest {
     public void getTemplatesUsingGETTest() throws Exception {
         Long contractTypeId = null;
         Long teamId = null;
-        ContractResponseDTO response = api.getTemplatesUsingGET(contractTypeId, teamId);
+        List<ContractTypeTemplateResponseDTO> response = api.getTemplatesUsingGET(contractTypeId, teamId);
 
         // TODO: test validations
     }

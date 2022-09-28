@@ -27,6 +27,7 @@ import java.io.IOException;
 
 
 import com.legislate.model.ContractResponseDTO;
+import com.legislate.model.ContractTypeTemplateResponseDTO;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;
@@ -276,8 +277,8 @@ public class ContractTypeTemplateApi {
      * @return ContractResponseDTO
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
-    public ContractResponseDTO getTemplatesUsingGET(Long contractTypeId, Long teamId) throws ApiException {
-        ApiResponse<ContractResponseDTO> resp = getTemplatesUsingGETWithHttpInfo(contractTypeId, teamId);
+    public List<ContractTypeTemplateResponseDTO> getTemplatesUsingGET(Long contractTypeId, Long teamId) throws ApiException {
+        ApiResponse<List<ContractTypeTemplateResponseDTO>> resp = getTemplatesUsingGETWithHttpInfo(contractTypeId, teamId);
         return resp.getData();
     }
 
@@ -289,7 +290,7 @@ public class ContractTypeTemplateApi {
      * @return ApiResponse&lt;ContractResponseDTO&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
-    public ApiResponse<ContractResponseDTO> getTemplatesUsingGETWithHttpInfo(Long contractTypeId, Long teamId) throws ApiException {
+    public ApiResponse<List<ContractTypeTemplateResponseDTO>> getTemplatesUsingGETWithHttpInfo(Long contractTypeId, Long teamId) throws ApiException {
         com.squareup.okhttp.Call call = getTemplatesUsingGETValidateBeforeCall(contractTypeId, teamId, null, null);
         Type localVarReturnType = new TypeToken<ContractResponseDTO>(){}.getType();
         return apiClient.execute(call, localVarReturnType);
